@@ -1,0 +1,467 @@
+start service UpdateElastic.Utilities.DatabaseLogger
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('d6206e27-2e11-4337-b073-cc3ffb020845','131983479366315304-1248269280','start','3/29/2019 10:45:37 PM',0,0,'')
+
+ping: 3/29/2019 10:45:43 PM
+Have 3 to edit
+no object to delete
+{"DataId":null,"ArticleId":1307,"Action":"update","Time":"2019-03-29T22:45:43.2127757+07:00","State":null}
+update: => {
+  "id": "5341112a-e37f-44c8-af7d-c6d6530b330f",
+  "filterids": [
+    23,
+    24,
+    4,
+    5,
+    6,
+    83
+  ],
+  "chietkhau": 10,
+  "order": 10,
+  "chuyenmon": "Việt Nam, hải sản và đặc sản rừng núi",
+  "tinhid": 2,
+  "hieuluc": false,
+  "nhomkhuyenmaiid": 3,
+  "logo": "http://api-developer.pasgo.vn/api/media/image/AnhDoiTacKMId/Logo_96d2fd80-71b5-410f-a2fa-4761f64975b8_1306343.jpg",
+  "pheduyet": false,
+  "tenchinhanh": "Đồi Xanh 2000",
+  "giatrungbinh": "150.000 - 500.000 (VNĐ/người)",
+  "tongdaipasgo": "0871.066.066",
+  "anhid": 7101,
+  "version": 1306343,
+  "nhomcndoitacid": "6ea841cb-7b3a-4606-b371-1804f5abfccf",
+  "mtenchinhanh": "Đồi Xanh 2000",
+  "toado": {
+    "lat": 10.78927,
+    "lon": 106.711754
+  },
+  "tenthuonghieu": "Nhà hàng Đồi Xanh 2000",
+  "tieude": "ĐỒI XANH 2000 - NƠI TÌNH YÊU THĂNG HOA",
+  "quanhuyenid": 25,
+  "trangthai": 3,
+  "priority": 0,
+  "chinhanhdoitacid": "2dba295d-4d17-44bd-abe9-9456fdae5664",
+  "diachi": "12B Nguyễn Hữu Cảnh, Quận Bình Thạnh",
+  "loaihopdong": 4,
+  "doitackhuyenmaiid": "419e293b-b91f-47d8-b11d-018d8198cdc9",
+  "chatluong": 4,
+  "danhgia": 0,
+  "articleid": 1307,
+  "madoitac": "doixanh2000",
+  "taitro": "Giảm <strong>10%</strong>",
+  "tennhomkhuyenmai": "Nhà hàng"
+}
+{"DataId":null,"ArticleId":1295,"Action":"update","Time":"2019-03-29T22:45:48.0322652+07:00","State":null}
+{"ClassName":"System.InvalidOperationException","Message":"The connection was not closed. The connection's current state is open.","Data":null,"InnerException":null,"HelpURL":null,"StackTraceString":"   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)\r\n   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)\r\n   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)\r\n   at System.Data.SqlClient.SqlConnection.Open()\r\n   at UpdateElastic.Utilities.DatabaseHelper.Open() in D:\\UpdateElastic\\UpdateElastic\\Utilities\\DatabaseHelper.cs:line 37\r\n   at UpdateElastic.Managers.ProcessManager.execute(Object sender, ElapsedEventArgs args) in D:\\UpdateElastic\\UpdateElastic\\Managers\\ProcessManager.cs:line 58","RemoteStackTraceString":null,"RemoteStackIndex":0,"ExceptionMethod":"8\nTryOpenConnection\nSystem.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\nSystem.Data.ProviderBase.DbConnectionInternal\nBoolean TryOpenConnection(System.Data.Common.DbConnection, System.Data.ProviderBase.DbConnectionFactory, System.Threading.Tasks.TaskCompletionSource`1[System.Data.ProviderBase.DbConnectionInternal], System.Data.Common.DbConnectionOptions)","HResult":-2146233079,"Source":"System.Data","WatsonBuckets":null}
+update: => {
+  "id": "e9d00040-ecd6-4767-8fc4-23844d5f605b",
+  "filterids": [],
+  "chietkhau": 0,
+  "order": 10,
+  "chuyenmon": "Nướng  lẩu",
+  "tinhid": 2,
+  "hieuluc": false,
+  "nhomkhuyenmaiid": 3,
+  "logo": "http://api-developer.pasgo.vn/api/media/image/AnhDoiTacKMId/Logo_aeed429f-e8a9-4eb3-be32-68b2a0564ac2_1308686.jpg",
+  "pheduyet": false,
+  "tenchinhanh": "Hoa Sơn Tửu Lầu",
+  "giatrungbinh": "150.000 – 180.000 (VNĐ/người)",
+  "tongdaipasgo": "0871.066.066",
+  "anhid": 9434,
+  "version": 1308686,
+  "nhomcndoitacid": "9e0b5515-ca4f-4a9b-8f5c-8188dc0b13a8",
+  "mtenchinhanh": "Hoa Sơn Tửu Lầu",
+  "toado": {
+    "lat": 10.772696,
+    "lon": 106.653392
+  },
+  "tenthuonghieu": "Hoa Sơn Tửu Lầu",
+  "tieude": "Quán Hoa Sơn Tửu Lầu 120 Nguyễn Thị Nhỏ Quận 11",
+  "quanhuyenid": 22,
+  "trangthai": 2,
+  "priority": 0,
+  "chinhanhdoitacid": "afa52ad5-cac3-43f7-b2f1-dcf79293834c",
+  "diachi": "120 Nguyễn Thị Nhỏ, Quận 11",
+  "loaihopdong": 4,
+  "doitackhuyenmaiid": "71c0e9f3-6c0d-4f5d-971e-000221f32ab9",
+  "chatluong": 3,
+  "danhgia": 4,
+  "articleid": 1295,
+  "madoitac": "hoasontuulau",
+  "taitro": "Đặt ngay để tr&aacute;nh hết b&agrave;n<strong></strong>",
+  "tennhomkhuyenmai": "Nhà hàng"
+}
+{"DataId":null,"ArticleId":1296,"Action":"update","Time":"2019-03-29T22:45:48.4853585+07:00","State":null}
+update: => {
+  "id": "f42ece81-31a5-40fa-a31d-e32e6e16b45b",
+  "filterids": [
+    22,
+    23,
+    24,
+    4,
+    5,
+    6,
+    87
+  ],
+  "chietkhau": 10,
+  "order": 10,
+  "chuyenmon": "Chuyên món Âu Mỹ",
+  "tinhid": 2,
+  "hieuluc": true,
+  "nhomkhuyenmaiid": 3,
+  "logo": "http://api-developer.pasgo.vn/api/media/image/AnhDoiTacKMId/Logo_c69ed128-bebf-4d24-b246-ff926dc4923c_1319305.jpg",
+  "pheduyet": true,
+  "tenchinhanh": "Hầm Rượu Vang Don De Rieu",
+  "giatrungbinh": "180.000 – 300.000 vnđ/người",
+  "tongdaipasgo": "0871.066.066",
+  "anhid": 20012,
+  "version": 1319305,
+  "nhomcndoitacid": "1de6bc56-6d2f-4404-b981-daf477720b3e",
+  "mtenchinhanh": "<b>Hầm Rượu Vang Don De Rieu</b>",
+  "toado": {
+    "lat": 10.776219,
+    "lon": 106.671927
+  },
+  "tenthuonghieu": "Hầm Rượu Vang Don De Dieu",
+  "tieude": "HẦM RƯỢU VANG DON DE DIEU – MÓN QUÀ TỪ THƯỢNG ĐẾ",
+  "quanhuyenid": 21,
+  "trangthai": 3,
+  "priority": 0,
+  "chinhanhdoitacid": "1fada676-ab1b-4ff3-94fd-4ec10515155f",
+  "diachi": "49/1 Hoàng Dư Khương, P. 12, Q. 10",
+  "loaihopdong": 2,
+  "doitackhuyenmaiid": "f7a7e3b8-f9ce-411c-bb6e-002706b54014",
+  "chatluong": 2,
+  "danhgia": 3.5,
+  "articleid": 1296,
+  "madoitac": "dondedieu",
+  "taitro": "Giảm <strong>10%</strong>",
+  "tennhomkhuyenmai": "Nhà hàng"
+}
+Success: 3
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('cf0390d5-090a-4754-8277-8e498e8d3d41','131983479366315304-1248269280','running','3/29/2019 10:45:48 PM',3,3,'')
+ping end at 3/29/2019 10:45:48 PM
+
+ping: 3/29/2019 10:45:53 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('c1454d8a-1a77-4992-bac3-41c16d538f54','131983479366315304-1248269280','running','3/29/2019 10:45:53 PM',0,0,'')
+ping end at 3/29/2019 10:45:53 PM
+
+ping: 3/29/2019 10:45:58 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('02fde2fa-a6b9-4800-bd64-f44f0ec5e54b','131983479366315304-1248269280','running','3/29/2019 10:45:58 PM',0,0,'')
+ping end at 3/29/2019 10:45:58 PM
+
+ping: 3/29/2019 10:46:03 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('fefa2571-f7d5-4108-be0b-ff65a7a93623','131983479366315304-1248269280','running','3/29/2019 10:46:03 PM',0,0,'')
+ping end at 3/29/2019 10:46:03 PM
+
+ping: 3/29/2019 10:46:08 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('847b309f-04e2-418e-a3de-e3608fd1739f','131983479366315304-1248269280','running','3/29/2019 10:46:08 PM',0,0,'')
+ping end at 3/29/2019 10:46:08 PM
+
+ping: 3/29/2019 10:46:13 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('63432bf8-ab69-418a-a4c4-1f4d41f04aea','131983479366315304-1248269280','running','3/29/2019 10:46:13 PM',0,0,'')
+ping end at 3/29/2019 10:46:13 PM
+
+ping: 3/29/2019 10:46:18 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('aa9965e9-6db0-4c97-94b3-02c2657b851d','131983479366315304-1248269280','running','3/29/2019 10:46:18 PM',0,0,'')
+ping end at 3/29/2019 10:46:18 PM
+
+ping: 3/29/2019 10:46:23 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('41963847-eae3-4e4a-8f3e-759910eae332','131983479366315304-1248269280','running','3/29/2019 10:46:23 PM',0,0,'')
+ping end at 3/29/2019 10:46:23 PM
+
+ping: 3/29/2019 10:46:28 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('bb8abad8-0d0d-473f-91c5-e23783cd9afa','131983479366315304-1248269280','running','3/29/2019 10:46:28 PM',0,0,'')
+ping end at 3/29/2019 10:46:28 PM
+
+ping: 3/29/2019 10:46:33 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('71b870e3-b5ec-4163-9958-784e0edc176d','131983479366315304-1248269280','running','3/29/2019 10:46:33 PM',0,0,'')
+ping end at 3/29/2019 10:46:33 PM
+
+ping: 3/29/2019 10:46:38 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('1d1e5865-50c2-4512-9373-b928682e6037','131983479366315304-1248269280','running','3/29/2019 10:46:38 PM',0,0,'')
+ping end at 3/29/2019 10:46:38 PM
+
+ping: 3/29/2019 10:46:43 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('a9f0f742-4cfc-4c23-980a-4f1e1d004bab','131983479366315304-1248269280','running','3/29/2019 10:46:43 PM',0,0,'')
+ping end at 3/29/2019 10:46:43 PM
+
+ping: 3/29/2019 10:46:48 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('8373dcf8-3cae-4256-a8b2-2f488fb8088d','131983479366315304-1248269280','running','3/29/2019 10:46:48 PM',0,0,'')
+ping end at 3/29/2019 10:46:48 PM
+
+ping: 3/29/2019 10:46:53 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('51eafa4c-7188-4d17-9a65-c48bf8da7ad1','131983479366315304-1248269280','running','3/29/2019 10:46:53 PM',0,0,'')
+ping end at 3/29/2019 10:46:53 PM
+
+ping: 3/29/2019 10:46:58 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('c5a29eb2-df75-4d50-87f3-08596a6615fc','131983479366315304-1248269280','running','3/29/2019 10:46:58 PM',0,0,'')
+ping end at 3/29/2019 10:46:58 PM
+
+ping: 3/29/2019 10:47:03 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('f5885208-aa40-4c3c-9451-e1e097a33451','131983479366315304-1248269280','running','3/29/2019 10:47:03 PM',0,0,'')
+ping end at 3/29/2019 10:47:03 PM
+
+ping: 3/29/2019 10:47:08 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('41166c98-7dfe-4efe-a5ea-a54454c90ea9','131983479366315304-1248269280','running','3/29/2019 10:47:09 PM',0,0,'')
+ping end at 3/29/2019 10:47:09 PM
+
+ping: 3/29/2019 10:47:13 PM
+{"ClassName":"System.InvalidOperationException","Message":"The connection was not closed. The connection's current state is open.","Data":null,"InnerException":null,"HelpURL":null,"StackTraceString":"   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)\r\n   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)\r\n   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)\r\n   at System.Data.SqlClient.SqlConnection.Open()\r\n   at UpdateElastic.Utilities.DatabaseHelper.Open() in D:\\UpdateElastic\\UpdateElastic\\Utilities\\DatabaseHelper.cs:line 37\r\n   at UpdateElastic.Managers.ProcessManager.execute(Object sender, ElapsedEventArgs args) in D:\\UpdateElastic\\UpdateElastic\\Managers\\ProcessManager.cs:line 58","RemoteStackTraceString":null,"RemoteStackIndex":0,"ExceptionMethod":"8\nTryOpenConnection\nSystem.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\nSystem.Data.ProviderBase.DbConnectionInternal\nBoolean TryOpenConnection(System.Data.Common.DbConnection, System.Data.ProviderBase.DbConnectionFactory, System.Threading.Tasks.TaskCompletionSource`1[System.Data.ProviderBase.DbConnectionInternal], System.Data.Common.DbConnectionOptions)","HResult":-2146233079,"Source":"System.Data","WatsonBuckets":null}
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('d85ca486-fab3-428b-bc02-5b89dfc13cc7','131983479366315304-1248269280','running','3/29/2019 10:47:22 PM',0,0,'')
+ping end at 3/29/2019 10:47:22 PM
+
+ping: 3/29/2019 10:47:23 PM
+Have 0 to edit
+no object to delete
+no object to insert or update
+Success: 0
+INSERT INTO ElasticUpdateServiceLog
+                            ([Id]
+                            ,[SessionId]
+                            ,[TrangThai]
+                            ,[ThoiGian]
+                            ,[SoLuong]
+                            ,[SoLuongThanhCong]
+                            ,[GhiChu])
+                            VALUES
+                            ('948c3b20-e851-4bd6-9846-2676dfd4025e','131983479366315304-1248269280','running','3/29/2019 10:47:23 PM',0,0,'')
+ping end at 3/29/2019 10:47:23 PM
